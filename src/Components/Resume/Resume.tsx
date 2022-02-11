@@ -1,3 +1,5 @@
+import {TOOLBAR_HEIGHT} from '../App/App';
+
 const Resume = () => {
   return (
     <>
@@ -5,12 +7,10 @@ const Resume = () => {
         data="https://drive.google.com/viewerng/
 viewer?embedded=true&url=http://leealandennis.com/LeeDennis.pdf"
         style={{
-          height: '100vh',
+          height: 'calc(100vh - ' + TOOLBAR_HEIGHT + ')',
           width: '100vw',
         }}
-      >
-        <div>Your browser sucks</div>
-      </object>
+      />
     </>
   );
 };
