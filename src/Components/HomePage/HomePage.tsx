@@ -25,7 +25,7 @@ const HomePage = () => {
             Hi, I'm Lee! I'm an experienced software developer with a
             demonstrated history of working in the information technology
             industry. I am skilled in several programming languages while
-            focussing on web development and SaaS.
+            focusing on web development and SaaS.
           </IntroText>
           <IntroText>
             I strongly believe that myself and others always have more to learn
