@@ -29,9 +29,9 @@ const HomePage = () => {
           </IntroText>
           <IntroText>
             I strongly believe that myself and others always have more to learn
-            and improve upon using the abundant resources we have around us. I
-            am constantly trying to improve myself through hard work,
-            determination and listening to others around me.
+            and improve upon using the abundant resources surrounding us. I am
+            constantly trying to improve myself through hard work, determination
+            and listening to those around me.
           </IntroText>
           <IntroText>
             Feel free to browse my site to learn more about my projects,
