@@ -19,6 +19,7 @@ import HomePage from '../HomePage/HomePage';
 import {BrowserRouter, NavLink, Route, Routes} from 'react-router-dom';
 import InvalidUrlAlertBox from '../InvalidUrlAlertBox/InvalidUrlAlertBox';
 import Resume from '../Resume/Resume';
+import ContactMe from '../ContactMe/ContactMe';
 
 export const TOOLBAR_HEIGHT = '55px';
 
@@ -56,11 +57,11 @@ const porftolioLinks: PortfolioLink[] = [
     iconName: 'file_present',
     href: '/resume',
   },
-  // {
-  //   name: 'Contact Me',
-  //   iconName: 'email',
-  //   href: '/contact',
-  // },
+  {
+    name: 'Contact',
+    iconName: 'email',
+    href: '/contact',
+  },
 ];
 
 const HamburgerMenu = (hamburgerMenuProps: HamburgerMenuProps) => {
@@ -190,6 +191,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<ContactMe />} />
             <Route path="*" element={<InvalidUrlAlertBox />} />
           </Routes>
         </PortfolioContainerGrid>
